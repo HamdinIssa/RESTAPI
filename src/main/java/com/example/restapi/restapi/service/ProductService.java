@@ -69,7 +69,7 @@ public class ProductService {
 
             productRepository.deleteById(id);
         } catch (Exception e) {
-            LOG.error("An error occured during deleting");
+            LOG.error("An error occured during deleting!!!!");
         }
 
     }
